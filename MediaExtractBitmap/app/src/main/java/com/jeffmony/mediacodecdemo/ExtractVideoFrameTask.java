@@ -28,7 +28,6 @@ public class ExtractVideoFrameTask implements Runnable {
     private static final int COLOR_FormatI420 = 1;
     private static final int COLOR_FormatNV21 = 2;
 
-
     private final int decodeColorFormat = MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420Flexible;
 
     private LinkedBlockingQueue<byte[]> mQueue;
